@@ -65,7 +65,7 @@ void ultra(){
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
   duration = pulseIn(echoPin, HIGH);
-  //distance= duration*0.343/2;
+  distance= duration*0.343/2;
  }
 
   
